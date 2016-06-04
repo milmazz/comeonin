@@ -16,6 +16,7 @@ defmodule Comeonin.Mixfile do
       description: @description,
       package: package,
       source_url: "https://github.com/elixircnx/comeonin",
+      make_makefile: "forcerebuild",
       compilers: [:elixir_make] ++ Mix.compilers,
       deps: deps
     ]

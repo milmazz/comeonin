@@ -19,7 +19,7 @@ defmodule Comeonin do
 
   To hash a password with the default options:
 
-    hash = hashpwsalt("difficult2guess")
+      hash = hashpwsalt("difficult2guess")
 
   To check a password against the stored hash, use the `checkpw`
   function. This takes two arguments: the plaintext password and
